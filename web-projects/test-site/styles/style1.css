@@ -1,0 +1,43 @@
+
+html {/*这条规则将整个页面的背景颜色设置为 所计划的颜色。*/
+  background-color: #00539F;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 3px 3px 1px black;
+}
+h3{
+  font-size: 16px;
+  background-color :blue;
+}
+h4{
+  font-size: 16px;
+  background-color :yellow;
+}
+p, li {
+  font-size: 16px;
+  /* line-height 后面可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+  line-height: 2;
+  letter-spacing: 1px;
+  padding:10;
+}
+
+
+body {     /*文档体格式设置*/
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;  /*给 body 用了一种略微偏红的橘色*/
+  padding: 0 2px 2px 2px;/*上、右、下、左的顺序排列*/
+  border: 5px solid black;  /* 5 像素的黑色实线边框*/
+}
+
+img {     /*图像居中*/
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  padding: 0 2px 2px 2px;
+  border: 5px solid black; 
+}
